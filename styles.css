@@ -29,6 +29,30 @@ colours:
 - Weights: 700, 900
 
 */
+/* --- BODY --- */
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* --- HEADER --- */
+
+header {
+    
+}
+
+/* --- HERO --- */
+
+.hero {
+
+}
+.hero h1 {
+
+}
+.Orange-hero {
+    max-width: 1440px;
+}
+
+/* --- MAIN --- */
 
 
 
@@ -36,18 +60,90 @@ colours:
 
 /* --- CLIENT TESTIMONIAL --- */
 .client-testimonials {
-
+    text-align: center;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    display: grid;
+    grid-column: 33.33%, 33.33%, 33.33%;
 }
-.client-testimonials img {
 
+.client-testimonials h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 3rem;
+    font-family: 'Fraunces', serif;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.ct-emily {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-left: 4rem;
+    padding: 1rem;
+}
+.ct-thomas {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    padding: 1rem;
+}
+.ct-jennie {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-right: 4rem;
+    padding: 1rem;
+}
+
+.client-testimonials img {
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
 }
 .client-name {
-    font-style: bold;
+    font-weight: bold;
 }
 .client-job {
+    font-family: 'Barlow', sans-serif;
 
 }
 
+/* --- FOUR PIC BOTTOM --- */
 
+.gallery {
+    display: grid;
+    grid-column: 25%, 25%, 25%, 25%;
+    column-gap: 0px;
+}
+
+.milk-bottles {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 100%;
+}
+.orange {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: 100%;
+}
+.ice-cream-cone {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    width: 100%;
+}
+.sugar-cubes {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    width: 100%;
+}
+
+
+/* --- FOOTER --- */
+
+
+/* --- ATTRIBUTION --- */
+/*
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+*/

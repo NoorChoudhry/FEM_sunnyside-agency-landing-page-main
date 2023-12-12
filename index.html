@@ -7,13 +7,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="styles.css">
-    
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
 </head>
 <body>
+
+<!-- HEADER --> 
   <header>
-    <img src="./images/logo.svg" alt="logo">
+    <img src="images/logo.svg" alt="Sunnyside logo" class="logo">
     <nav>
       <ul>
         <li><a href="#">About</a></li>
@@ -23,10 +25,16 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <h1>We are creatives</h1>
-    <img src="images/desktop/image-header.jpg" class="Orange hero" alt="Orange slice">
 
+
+  <main>
+<!-- HERO -->
+    <div class="hero">
+      <h1>We are creatives</h1>
+      <img src="images/desktop/image-header.jpg" class="Orange-hero" alt="Orange slice">
+    </div>
+
+<!-- MAIN -->
     <h2>Transform your brand</h2>
 
       <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -38,33 +46,54 @@
       <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
       <a class="learn-more" href="#">Learn more</a> 
 
+
     <h3>Graphic design</h3>
       <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
 
     <h3>Photography</h3>
       <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
 
+<!-- CLIENT TESTIMONIAL --> 
+
     <div class="client-testimonials">
       
       <h4>Client testimonials</h4>
 
-      <img src="images/image-emily.jpg" alt="Emily R.">
-      <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-      <p class="client-name">Emily R.</p>
-      <p class="client-job">Marketing Director</p>
+        <div class="ct-emily">
+          <img src="images/image-emily.jpg" alt="Emily R.">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="client-name">Emily R.</p>
+          <p class="client-job">Marketing Director</p>
+        </div>
 
-      <img src="images/image-thomas.jpg" alt="Thomas S.">
-      <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-      <p class="client-name">Thomas S.</p>
-      <p class="client-job">Chief Operating Officer</p>
+        <div class="ct-thomas">
+          <img src="images/image-thomas.jpg" alt="Thomas S.">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <p class="client-name">Thomas S.</p>
+          <p class="client-job">Chief Operating Officer</p>
+        </div>
 
-      <img src="images/image-jennie.jpg" alt="Jennie F.">
-      <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-      <p class="client-name">Jennie F.</p>
-      <p class="client-job">Business Owner</p>
+        <div class="ct-jennie">
+          <img src="images/image-jennie.jpg" alt="Jennie F.">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="client-name">Jennie F.</p>
+          <p class="client-job">Business Owner</p>
+        </div>
     </div>
 
+<!-- FOUR PIC BOTTOM --> 
+    <div class="gallery">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles" class="milk-bottles" id="picture">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="orange" class="orange" id="picture">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="ice cream cone" class="ice-cream-cone" id="picture">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes" class="sugar-cubes id="picture">
+    </div>
+
+
   </main>
+
+<!-- FOOTER --> 
+
   <footer>
     <nav>
       <ul>
